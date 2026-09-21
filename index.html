@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sereen Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700&family=Lobster&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Scroll Glow -->
+    <div class="scroll-glow-track">
+        <div class="scroll-glow-progress"></div>
+        <div class="scroll-glow-dot">🎀</div>
+    </div>
+
+    <!-- Floating Bows -->
+    <div class="floating-bows" aria-hidden="true">
+        <span class="floating-bow bow-one">🎀</span>
+        <span class="floating-bow bow-two">🎀</span>
+        <span class="floating-bow bow-three">🎀</span>
+    </div>
+    <header class="navbar" id="home">
+        <a class="logo" href="#home" aria-label="Sereen home">
+            <img src="images/logo.png" alt="Sereen logo">
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#journey" class="nav-link">My Journey</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero reveal" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <p class="hero-intro">Hi, I’m Sereen</p>
+
+                <h1 class="hero-title">
+                    UI/UX Designer creating simple, thoughtful digital experiences.
+                </h1>
+
+                <p class="hero-description">
+                    I design user-friendly digital experiences with a background in front-end development
+                </p>
+
+                <a class="btn-primary" href="#contact">Let's Talk</a>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="portrait-shape">
+                    <img src="images/folio_pic1.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section reveal" id="about">
+            <div class="about-left">
+                <p class="section-label">ABOUT ME</p>
+
+                <h2>A little about me</h2>
+
+                <p class="about-description">
+                    I’m a UI/UX designer with a background in front-end development.
+                    I enjoy turning ideas into clear, simple, and user-friendly digital
+                    experiences, with a strong focus on visual details and usability.
+                </p>
+            </div>
+
+            <div class="about-cards">
+                <div class="about-card">
+                    <strong>UI/UX Design</strong>
+                    <span>• Figma • Wireframes • Prototypes</span>
+                </div>
+
+                <div class="about-card">
+                    <strong>Front-End</strong>
+                    <span>• HTML • CSS • JavaScript</span>
+                </div>
+
+                <div class="about-card">
+                    <strong>What I Value</strong>
+                    <span>• Clarity • Simplicity • Usability</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="journey-section reveal" id="journey">
+
+            <div class="journey-heading">
+                <p class="section-label">MY JOURNEY</p>
+                <h2>Experience & Education</h2>
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <img src="images/bow.svg" alt="">
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2021 – 2025</span>
+                        <h3>Bachelor’s Degree in Computer Science</h3>
+                        <p>Al-Balqa’a Applied University</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <img src="images/bow.svg" alt="">
+                    </div>
+
+                    <div class="timeline-content">
+                        <span class="timeline-year">2025</span>
+                        <h3>Flutter Developer Intern</h3>
+                        <p>Arab Therapy</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <img src="images/bow.svg" alt="">
+                    </div>
+
+                    <div class="timeline-content">
+                        <span class="timeline-year">2026</span>
+                        <h3>Full-Stack Development Training</h3>
+                        <p>Orange Coding School</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="projects-section reveal" id="projects">
+
+            <div class="projects-heading">
+                <p class="section-label">PROJECTS</p>
+
+                <h2>Selected Work</h2>
+
+                <p>
+                    A selection of projects where I combined design thinking,
+                    user experience, and front-end development.
+                </p>
+            </div>
+
+            <div class="projects-list">
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/SereGlowy.png" alt="SereGlowy project" class="project-img-contain">
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>SereGlowy</h3>
+                            <span>• UI/UX • Front-End • ASP.NET Core MVC</span>
+                        </div>
+
+                        <p>
+                            A skincare and beauty platform designed to help users
+                            explore products, understand ingredients, and build a
+                            more personalized skincare routine.
+                        </p>
+
+                        <a href="https://github.com/Sereen-M/SereGlowy" class="btn-primary project-btn" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/Darbak.png" alt="Darbak project" class="project-img-contain">
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>Darbak</h3>
+                            <span>• E-Commerce • Front-End • ASP.NET Core MVC</span>
+                        </div>
+
+                        <p>
+                            A collaborative automotive parts e-commerce platform
+                            with product management, shopping cart, wishlist,
+                            checkout, and admin features.
+                        </p>
+
+                        <a href="https://github.com/abdalqaderf/Darbak_e-commerce" class="btn-primary project-btn" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="images/quit.png" alt="QuitWell project" class="project-img-contain">
+                    </div>
+
+                    <div class="project-info">
+                        <div>
+                            <h3>QuitWell</h3>
+                            <span>• Mobile App • UI/UX • React • Django</span>
+                        </div>
+
+                        <p>
+                            A personalized smoking cessation app designed to help
+                            users create quit plans, manage cravings, track progress,
+                            and stay motivated throughout their journey.
+                        </p>
+
+                        <a href="https://github.com/sajadaoud1/smoking_cessationP" class="btn-primary project-btn" target="_blank" rel="noopener noreferrer">
+                            View Project
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section class="skills-section reveal" id="skills">
+
+            <div class="skills-heading">
+                <p class="section-label">SKILLS</p>
+
+                <h2>What I work with</h2>
+
+                <p>
+                    A mix of design and front-end skills I use to create clear
+                    and user-friendly digital experiences.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <article class="skill-card">
+                    <h3>UI/UX Design</h3>
+
+                    <div class="skill-list">
+                        <span>Figma</span>
+                        <span>Wireframing</span>
+                        <span>Prototyping</span>
+                        <span>User Flows</span>
+                        <span>Responsive Design</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Front-End Development</h3>
+
+                    <div class="skill-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                        <span>ASP.NET Core MVC</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Tools & Workflow</h3>
+
+                    <div class="skill-list">
+                        <span>Git</span>
+                        <span>GitHub</span>
+                        <span>Visual Studio</span>
+                        <span>VS Code</span>
+                        <span>SQL Server</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Soft Skills</h3>
+
+                    <div class="skill-list">
+                        <span>Teamwork</span>
+                        <span>Time Management</span>
+                        <span>Communication</span>
+                        <span>Problem Solving</span>
+                        <span>Continuous Learning</span>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="contact-section reveal" id="contact">
+
+            <div class="contact-heading">
+                <p class="section-label">CONTACT</p>
+
+                <h2>Let’s create something meaningful together.</h2>
+
+                <p>
+                    Have a project, opportunity, or idea in mind?
+                    I’d be happy to connect.
+                </p>
+            </div>
+
+
+            <div class="contact-content">
+
+                <a href="mailto:sereenkatout@gmail.com" class="contact-button">
+
+                    <img src="images/bow.svg" alt="" class="contact-bow">
+
+                    <span>Let’s Talk</span>
+                </a>
+
+
+                <div class="contact-details">
+
+                    <p>
+                        <strong>Email :</strong>
+                        <a href="mailto:sereenkatout@gmail.com">
+                            sereenkatout@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Phone :</strong>
+                        <a href="tel:+962797650825">
+                            0797650825
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn :</strong>
+                        <a href="https://www.linkedin.com/in/sereen-katout" target="_blank" rel="noopener noreferrer">
+                            Sereen Katout
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub :</strong>
+                        <a href="https://github.com/Sereen-M" target="_blank" rel="noopener noreferrer">
+                            Sereen-M
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer class="footer">
+
+            <img src="images/footer_logo.png" alt="Sereen logo" class="footer-logo">
+
+            <p>© 2026 Sereen. All rights reserved.</p>
+
+        </footer>
+
+    </main>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('open');
+            menuToggle.classList.toggle('open', isOpen);
+            menuToggle.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                menuToggle.classList.remove('open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.16 });
+
+        document.querySelectorAll('.reveal').forEach(section => revealObserver.observe(section));
+        const glowProgress = document.querySelector(".scroll-glow-progress");
+        const glowDot = document.querySelector(".scroll-glow-dot");
+
+        function updateScrollGlow() {
+
+            const scrollTop =
+                window.scrollY ||
+                document.documentElement.scrollTop;
+
+            const scrollHeight =
+                document.documentElement.scrollHeight -
+                window.innerHeight;
+
+            const scrollPercent =
+                scrollHeight > 0
+                    ? (scrollTop / scrollHeight) * 100
+                    : 0;
+
+            glowProgress.style.height = `${scrollPercent}%`;
+            glowDot.style.top = `${scrollPercent}%`;
+        }
+
+        window.addEventListener("scroll", updateScrollGlow);
+
+        updateScrollGlow();
+    </script>
+</body>
+
+</html>
