@@ -1767,3 +1767,9 @@ a {
 
     object-fit: contain;
 }
+@media (max-width: 768px) {
+    .scroll-glow-dot img {
+        width: 8px !important;
+        height: auto !important;
+    }
+}
