@@ -1383,6 +1383,7 @@ a {
     left: 50%;
     top: 0%;
 
+
     transform: translate(-50%, -50%) rotate(-8deg);
 
     font-size: 20px;
@@ -1702,4 +1703,67 @@ a {
         transform: none;
         filter: none;
     }
+}
+@media (max-width: 768px) {
+
+    .journey-section {
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+
+    .timeline {
+        padding-left: 30px !important;
+        margin-left: 0 !important;
+    }
+
+    .timeline::before {
+        left: 10px !important;
+    }
+
+    .timeline-item {
+        padding-left: 8px !important;
+        min-height: 150px;
+    }
+
+    .timeline-marker {
+        left: -20px !important;
+        top: 6px;
+
+        width: 24px !important;
+        height: 24px !important;
+
+        transform: translateX(-50%);
+    }
+
+    .timeline-content {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .timeline-item:first-child .timeline-marker {
+        top: 18px !important;
+    }
+}
+.scroll-glow-dot {
+    width: 30px !important;
+    height: 30px !important;
+
+    /* Don't show a background bow */
+    background-image: none !important;
+}
+
+/* THE ACTUAL BOW IMAGE */
+.scroll-glow-dot img {
+    width: 30px !important;
+    height: auto !important;
+
+    display: block;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    object-fit: contain;
 }
